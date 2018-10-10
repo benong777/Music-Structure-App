@@ -1,6 +1,5 @@
 package com.example.android.music;
 
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -52,9 +51,7 @@ public class ClassicsActivity extends AppCompatActivity {
                 // Get the {@link Song} object at the given position the user clicked on
                 Song song = songs.get(position);
 
-                // Create and set up the {@link MediaPlayer} for the audio resource associated with the current song
-                //mMediaPlayer = MediaPlayer.create(ClassicsActivity.this, song.getAudioResourceId());
-                //mMediaPlayer.start();  // No need to call prepare(); create() does that for you
+                // Display a toast when a list item is clicked on
                 Toast.makeText(ClassicsActivity.this, "Item #" + position + " Clicked", Toast.LENGTH_SHORT).show();
             }
         });
