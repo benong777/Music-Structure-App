@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Notes:                                                   --><!-- "xmlns:tools" allows preview of text during developement -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/image_bg_color"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/song_image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:scaleType="centerCrop"
+        android:layout_margin="@dimen/image_layout_margin"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_toRightOf="@+id/song_image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/songNameTextView"
+            style="@style/topWord"
+            android:gravity="bottom"
+            tools:text="Animal" />
+
+        <TextView
+            android:id="@+id/artistTextView"
+            style="@style/bottomWord"
+            android:gravity="top"
+            tools:text="Maroon 5" />
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/baseline_play_circle_outline_black_18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/image_margin"/>
+
+</RelativeLayout>

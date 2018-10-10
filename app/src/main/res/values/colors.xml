@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="category_favs">#F9A825</color>
+    <color name="category_newHits">#00BFA5</color>
+    <color name="category_classics">#EF5350</color>
+    <color name="category_workout">#16AFCA</color>
+
+    <color name="image_bg_color">#212121</color>
+
+    <color name="blue">#16AFCA</color>
+    <color name="brown">#4A312A</color>
+    <color name="cyan">#B2EBF2</color>
+    <color name="green">#379237</color>
+    <color name="orange">#FD8E09</color>
+    <color name="purple">#8800A0</color>
+    <color name="tan">#FFF7DA</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#000000</color>
+    <color name="darkBlue">#0D47A1</color>
+    <color name="lightBlue">#1E88E5</color>
+</resources>

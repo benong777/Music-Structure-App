@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Music</string>
+
+    <!-- Category names [CHAR LIMIT=20] -->
+    <string name="category_favs">Favorites</string>
+    <string name="category_newHits">New Hits</string>
+    <string name="category_classics">Classics</string>
+    <string name="category_workout">Workout Songs</string>
+
+    <string name="favs_character">F</string>
+    <string name="newHits_character">N</string>
+    <string name="classics_character">C</string>
+    <string name="workout_character">W</string>
+
+    <string name="favs_album_0">Sweetener</string>
+    <string name="favs_album_1">Iris</string>
+    <string name="favs_album_2">Love Lies</string>
+    <string name="favs_album_3">All of Me</string>
+    <string name="favs_album_4">Divide</string>
+    <string name="favs_album_5">Reputation</string>
+    <string name="favs_album_6">Young Blood</string>
+
+    <string name="favs_artist_0">Ariana Grande</string>
+    <string name="favs_artist_1">Goo Goo Dolls</string>
+    <string name="favs_artist_2">Khalid and Normani</string>
+    <string name="favs_artist_3">John Legend</string>
+    <string name="favs_artist_4">Ed Sheeran</string>
+    <string name="favs_artist_5">Taylor Swift</string>
+    <string name="favs_artist_6">5 Seconds of Summer</string>
+
+    <string name="classics_album_0">Thriller</string>
+    <string name="classics_album_1">Like a Prayer</string>
+    <string name="classics_album_2">When Doves Cry</string>
+    <string name="classics_album_3">I Wanna Dance With Somebody</string>
+    <string name="classics_album_4">Don\'t Stop Believing</string>
+    <string name="classics_album_5">Billie Jean</string>
+    <string name="classics_album_6">I Think We\'re Alone Now</string>
+
+    <string name="classics_artist_0">Michael Jackson</string>
+    <string name="classics_artist_1">Madonna</string>
+    <string name="classics_artist_2">Prince</string>
+    <string name="classics_artist_3">Whitney Houston</string>
+    <string name="classics_artist_4">Journey</string>
+    <string name="classics_artist_5">Michael Jackson</string>
+    <string name="classics_artist_6">Tiffany</string>
+
+    <string name="new_hits_album_0">Cry Pretty</string>
+    <string name="new_hits_album_1">Sweetener</string>
+    <string name="new_hits_album_2">Bridges</string>
+    <string name="new_hits_album_3">Art of Doubt</string>
+    <string name="new_hits_album_4">An American Treasure</string>
+    <string name="new_hits_album_5">A Start is Born</string>
+    <string name="new_hits_album_6">Hollywood Africans</string>
+
+    <string name="new_hits_artist_0">Carrie Underwood</string>
+    <string name="new_hits_artist_1">Ariana Grande</string>
+    <string name="new_hits_artist_2">Josh Groban</string>
+    <string name="new_hits_artist_3">Metric</string>
+    <string name="new_hits_artist_4">Tom Petty</string>
+    <string name="new_hits_artist_5">Lady Gaga and Bradley Cooper</string>
+    <string name="new_hits_artist_6">Jon Batiste</string>
+
+    <string name="workout_album_0">Blank Space</string>
+    <string name="workout_album_1">Run This Town</string>
+    <string name="workout_album_2">Umbrella</string>
+    <string name="workout_album_3">Harvester of Sorrow</string>
+    <string name="workout_album_4">Youth Gone Wild</string>
+    <string name="workout_album_5">Bring the Noise</string>
+    <string name="workout_album_6">Burning Down the House</string>
+
+    <string name="workout_artist_0">Taylor Swift</string>
+    <string name="workout_artist_1">Jay Z</string>
+    <string name="workout_artist_2">Rihanna</string>
+    <string name="workout_artist_3">Metallica</string>
+    <string name="workout_artist_4">Skid Row</string>
+    <string name="workout_artist_5">Public Enemy</string>
+    <string name="workout_artist_6">Talking Heads</string>
+</resources>
