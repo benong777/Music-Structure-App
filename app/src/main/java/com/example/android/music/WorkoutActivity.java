@@ -47,9 +47,6 @@ public class WorkoutActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                // Get the {@link Song} object at the given position the user clicked on
-                Song song = songs.get(position);
-
                 // Display a toast when a list item is clicked on
                 Toast.makeText(WorkoutActivity.this, "Item #" + position + " Clicked", Toast.LENGTH_SHORT).show();
             }

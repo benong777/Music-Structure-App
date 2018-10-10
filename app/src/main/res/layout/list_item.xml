@@ -41,7 +41,7 @@
     </LinearLayout>
 
     <ImageView
-        android:src="@drawable/baseline_play_circle_outline_black_18dp"
+        android:src="@drawable/ic_play_circle_outline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
